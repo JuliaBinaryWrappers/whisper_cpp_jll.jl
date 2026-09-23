@@ -1,180 +1,260 @@
 [[whisper_cpp]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "dd59c9c005f600abe4b6e22eb2f389959f5f2229"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[whisper_cpp.download]]
+    sha256 = "7fd1ac07c71a5aeb38675d6c0a91a5f61fce72c83349d516511894cb3c40db27"
+    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.i686-linux-gnu-cxx11.tar.gz"
+[[whisper_cpp]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "6e7b6d483dd3a55a99b7bc764eb830f86b498bdf"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[whisper_cpp.download]]
+    sha256 = "0c2bdfb8ef4f2c621b779adb31379f96546cfd709bb724b128d1592265d4550d"
+    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.x86_64-linux-gnu-cxx11.tar.gz"
+[[whisper_cpp]]
 arch = "aarch64"
-git-tree-sha1 = "d034294342ed90870bbb8b0629ad81aabeaad13f"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "2e2d3e333360dbded93255a6aa08077458078834"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[whisper_cpp.download]]
+    sha256 = "fc121c0a342dc9537bab1dc4b641c109b68c876c13dc02990d1c04b6a783c617"
+    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-linux-gnu-cxx11.tar.gz"
+[[whisper_cpp]]
+arch = "riscv64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "7b34d7dbcf5f8e1323760685c2ac47964b05de10"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[whisper_cpp.download]]
+    sha256 = "8c683096ed8e264c91e7de2de0b782ef762172f959456922591706cbcfe2f4c6"
+    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.riscv64-linux-gnu-cxx11.tar.gz"
+[[whisper_cpp]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "abe993db82061938640f9748d8b3a3f98afcac69"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[whisper_cpp.download]]
+    sha256 = "15e1aaf0def6ef34952601d3e8e6a80c2104cc9eded0a5236819e428d85caf1b"
+    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.i686-linux-musl-cxx11.tar.gz"
+[[whisper_cpp]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "2aca314c4479b1ba4fe8ea56a9fd8b5d209a1321"
+lazy = true
+libc = "musl"
+os = "linux"
+
+    [[whisper_cpp.download]]
+    sha256 = "0ef3445d23993ac16c96cca7f344b46fdae29f676071314f4d4ed958708c1231"
+    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.x86_64-linux-musl-cxx11.tar.gz"
+[[whisper_cpp]]
+arch = "x86_64"
+git-tree-sha1 = "e5b187d45ecce0ebb46b77ad9a16af46b8f2b5ec"
+lazy = true
 os = "macos"
 
     [[whisper_cpp.download]]
-    sha256 = "bf678c6431874cd7a89e1060051109e3e8e1addc394ad436da046b2f6bb5505e"
-    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.aarch64-apple-darwin.tar.gz"
+    sha256 = "5584eee401a95a6f5a34f81ae31bf3d260f0e0969fa7763fde6af8fa10035f1e"
+    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.x86_64-apple-darwin.tar.gz"
 [[whisper_cpp]]
 arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "6d068d344dd3ea6385da48b749e522d9b4005ef7"
-libc = "glibc"
-os = "linux"
-
-    [[whisper_cpp.download]]
-    sha256 = "8c9a5a382d512fa9e20209edf7e219b2b3f030a313a94050903c21ccf5014f63"
-    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.aarch64-linux-gnu-cxx03.tar.gz"
-[[whisper_cpp]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "86bca489cd33c37e89e3a9d4daf1e3d763a84773"
-libc = "glibc"
-os = "linux"
-
-    [[whisper_cpp.download]]
-    sha256 = "3f1a2bff6ed48179a661a7e232690bc4baa5b3644f3b51861aa956865e9483c9"
-    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.aarch64-linux-gnu-cxx11.tar.gz"
-[[whisper_cpp]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "c243b1fa097d17fecdd85781cc605cc7bb28bcfb"
-libc = "musl"
-os = "linux"
-
-    [[whisper_cpp.download]]
-    sha256 = "89e152d2864d9997804497aeaabb0f51bb777e82af79165fd1cdc22f76a5a332"
-    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.aarch64-linux-musl-cxx03.tar.gz"
-[[whisper_cpp]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "8416da3765b2ad102459da1fb0330767146475a1"
-libc = "musl"
-os = "linux"
-
-    [[whisper_cpp.download]]
-    sha256 = "7c72e9ebd8a4d79757e0a38a20531fc8d4cd56d1ff8b83e2e358093a0a6bd026"
-    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.aarch64-linux-musl-cxx11.tar.gz"
-[[whisper_cpp]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "afa6cd63c62f1d1e9d4e3d99d1a62965ed377933"
-libc = "glibc"
-os = "linux"
-
-    [[whisper_cpp.download]]
-    sha256 = "93679f274e5ec36ca5a13cafd6bef8017bcd61cc708919785a47454de01fc420"
-    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.i686-linux-gnu-cxx03.tar.gz"
-[[whisper_cpp]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "35cd0afb080f525208b96d68cacb1680fcc86f0b"
-libc = "glibc"
-os = "linux"
-
-    [[whisper_cpp.download]]
-    sha256 = "a733d31a0eadcd281437a82d530b027848f0ed4ece94cbfdb9a9b818592b86a8"
-    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.i686-linux-gnu-cxx11.tar.gz"
-[[whisper_cpp]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "cb3758d1a593b76587262259e1849f8fe1749eb6"
-libc = "musl"
-os = "linux"
-
-    [[whisper_cpp.download]]
-    sha256 = "6b04bfe65d6be17bb7e9fd8a90f9953670513b45062b6a4dd37fbeaa0faebef6"
-    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.i686-linux-musl-cxx03.tar.gz"
-[[whisper_cpp]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "8335926233eaef4e748c89238e91492b8bf50de7"
-libc = "musl"
-os = "linux"
-
-    [[whisper_cpp.download]]
-    sha256 = "ca545651f5ebfa96eb4467fba18bc522170feaf1f4b8cb596ad2de63604d4e58"
-    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.i686-linux-musl-cxx11.tar.gz"
-[[whisper_cpp]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "2b5ec31f0d904ef9c8f1d29865ad048fcc9c4b5c"
-os = "windows"
-
-    [[whisper_cpp.download]]
-    sha256 = "1e85fa1e439acaa8a11b4b76e4c9b03cd71b54ea07decf0bd36fc1fe59601b84"
-    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.i686-w64-mingw32-cxx03.tar.gz"
-[[whisper_cpp]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "4df4472efdcbc635392e1ed1242cf91b294ee9d8"
-os = "windows"
-
-    [[whisper_cpp.download]]
-    sha256 = "c3220901d098d358330ae0a1de74078b09dcad3679b57c54dfc7ae079db03b6c"
-    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.i686-w64-mingw32-cxx11.tar.gz"
-[[whisper_cpp]]
-arch = "x86_64"
-git-tree-sha1 = "92e10350e030457691616c9deb520861595c5ded"
+git-tree-sha1 = "acdf612f32a3ee0055417699e3246f4e43f94e00"
+lazy = true
 os = "macos"
 
     [[whisper_cpp.download]]
-    sha256 = "9bcc7e0c1bc9da0d7fcfc1eb03defbb26671c7099c61d8d255ce10e66dbe0bf2"
-    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "f4066a183a1bcb9f80a2ffb805dd76c0ee20bcd7dbcd43483e57cf6ccdd594a3"
+    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-apple-darwin.tar.gz"
 [[whisper_cpp]]
 arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "2400335681a528da41255a6f6f38f66556db9a27"
-libc = "glibc"
-os = "linux"
-
-    [[whisper_cpp.download]]
-    sha256 = "d0a15d714aba0176c144164eef79a6b31b5545ed64c4769354095fabdafff7d2"
-    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.x86_64-linux-gnu-cxx03.tar.gz"
-[[whisper_cpp]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "d3831240c0acc106396f4468e1f875bb8ab1eebc"
-libc = "glibc"
-os = "linux"
-
-    [[whisper_cpp.download]]
-    sha256 = "3b1a0852d92172253f600682e470539b55d013d59d68e3104c4177b5376cfd6a"
-    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.x86_64-linux-gnu-cxx11.tar.gz"
-[[whisper_cpp]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "3720a78f569cc5480a78bed125709716f9ede3b9"
-libc = "musl"
-os = "linux"
-
-    [[whisper_cpp.download]]
-    sha256 = "96aa6f387775f3e43051616bda48d2ba2490116ecd5de862e42a23d6fa007eec"
-    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.x86_64-linux-musl-cxx03.tar.gz"
-[[whisper_cpp]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "7ac89b772dc6422270d73e8b6383087338805414"
-libc = "musl"
-os = "linux"
-
-    [[whisper_cpp.download]]
-    sha256 = "b0739653e39d231817f6b04d08a0710337da35f610a4112c95bc6a54ad710b80"
-    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.x86_64-linux-musl-cxx11.tar.gz"
-[[whisper_cpp]]
-arch = "x86_64"
-git-tree-sha1 = "44e92fde817af62b6c3c04f497fd1ceb3180c449"
+git-tree-sha1 = "99a0f00f88971116e8ca26ba0e2ed88a01df2c43"
+lazy = true
 os = "freebsd"
 
     [[whisper_cpp.download]]
-    sha256 = "44c3249193400d7cb8b8cbf2c03bd85a67ce22293e85eb00c26cd82404b4d0c9"
-    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "d3d81484ee2c298932caa9f13c6a3fa1825b1c664d29503b5907c447ca034930"
+    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.x86_64-unknown-freebsd.tar.gz"
 [[whisper_cpp]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "f9a59fa6aab99c3a36da8a0e3c9f1c9c8661b2a4"
+arch = "aarch64"
+git-tree-sha1 = "1fee3b9f6fb5ce26cc178380c10392e972ae48dc"
+lazy = true
+os = "freebsd"
+
+    [[whisper_cpp.download]]
+    sha256 = "fef17dcab34cb32d231a98e48e20d7c331ffb9d48d4dc382ce0bc5595a6b243c"
+    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-unknown-freebsd.tar.gz"
+[[whisper_cpp]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "cc8ac207a8a21a4b5ad03c82190bac1328b3c23a"
+lazy = true
 os = "windows"
 
     [[whisper_cpp.download]]
-    sha256 = "3b644cc2b5d860c27658e853382602c4a8679a9a6dfb2ccd817366263d218691"
-    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.x86_64-w64-mingw32-cxx03.tar.gz"
+    sha256 = "468e294fbd9dad0c90f46c876a88d2b80812476416a4a3a15aac6b5ee8e6514d"
+    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.i686-w64-mingw32-cxx11.tar.gz"
 [[whisper_cpp]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "c5ed47dd7eae7281cb35c686f8d3cf0bd7f69fb5"
+git-tree-sha1 = "b9b91d78fb231e38d799252963add79cffe88885"
+lazy = true
 os = "windows"
 
     [[whisper_cpp.download]]
-    sha256 = "eb321b5a20d81f4bad742fa20c2e71b822bef50c7a552753405b25a54852db5d"
-    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.2.0+1/whisper_cpp.v1.2.0.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "ce59321225795e0af9b10965d5ea2e10bde8c9478a790958bef56cadac79fa53"
+    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.x86_64-w64-mingw32-cxx11.tar.gz"
+[[whisper_cpp]]
+arch = "x86_64"
+cuda = "12.2"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5431dcec6096b031809d8fa3160e3f796f2484fd"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[whisper_cpp.download]]
+    sha256 = "99c4350274b222af914baf6ec893f8a2d5476114cb6320cad089f9a98feef48f"
+    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.x86_64-linux-gnu-cxx11-cuda+12.2.tar.gz"
+[[whisper_cpp]]
+arch = "aarch64"
+cuda = "12.2"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9f2356fd196cb014dcd0aba57e475bdf5874d78d"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[whisper_cpp.download]]
+    sha256 = "38beda351620f606ff4b6e68a4e581c5686f2ec6326238d60c68c37269771ee1"
+    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-linux-gnu-cxx11-cuda_platform+jetson-cuda+12.2.tar.gz"
+[[whisper_cpp]]
+arch = "aarch64"
+cuda = "12.2"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9f2356fd196cb014dcd0aba57e475bdf5874d78d"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[whisper_cpp.download]]
+    sha256 = "38beda351620f606ff4b6e68a4e581c5686f2ec6326238d60c68c37269771ee1"
+    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-linux-gnu-cxx11-cuda_platform+sbsa-cuda+12.2.tar.gz"
+[[whisper_cpp]]
+arch = "x86_64"
+cuda = "12.6"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3fff05fa5553ca64c65ed1cddda423e85b52ccb0"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[whisper_cpp.download]]
+    sha256 = "44133fa26e002635ec3cd2ea5061d74e37d66f0a5acd21f6437bce9ba1c8f9ae"
+    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.x86_64-linux-gnu-cxx11-cuda+12.6.tar.gz"
+[[whisper_cpp]]
+arch = "aarch64"
+cuda = "12.6"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9cc2ea2ada11baf21fb2a6480c4a2fd4d01c77db"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[whisper_cpp.download]]
+    sha256 = "5204dc9c00571cfc505247141a3c8d1b285e35190e7236b4d104406b0e0ab7ac"
+    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-linux-gnu-cxx11-cuda_platform+jetson-cuda+12.6.tar.gz"
+[[whisper_cpp]]
+arch = "aarch64"
+cuda = "12.6"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9cc2ea2ada11baf21fb2a6480c4a2fd4d01c77db"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[whisper_cpp.download]]
+    sha256 = "5204dc9c00571cfc505247141a3c8d1b285e35190e7236b4d104406b0e0ab7ac"
+    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-linux-gnu-cxx11-cuda_platform+sbsa-cuda+12.6.tar.gz"
+[[whisper_cpp]]
+arch = "x86_64"
+cuda = "12.8"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "91928712dceee43e2186dbcf2da46ad89029f6a6"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[whisper_cpp.download]]
+    sha256 = "5037669320c5c4c53a26e66aa524d2c256bdf572163bf121b7369ba802a784f1"
+    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.x86_64-linux-gnu-cxx11-cuda+12.8.tar.gz"
+[[whisper_cpp]]
+arch = "aarch64"
+cuda = "12.8"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "38b6dd8ae78771aab34d824521d7468c18995fb5"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[whisper_cpp.download]]
+    sha256 = "21643ed09c4ad2e4483659a9d143e05d9f6079e87d133f9e0b0de09f7b580a65"
+    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-linux-gnu-cxx11-cuda_platform+jetson-cuda+12.8.tar.gz"
+[[whisper_cpp]]
+arch = "aarch64"
+cuda = "12.8"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "38b6dd8ae78771aab34d824521d7468c18995fb5"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[whisper_cpp.download]]
+    sha256 = "21643ed09c4ad2e4483659a9d143e05d9f6079e87d133f9e0b0de09f7b580a65"
+    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-linux-gnu-cxx11-cuda_platform+sbsa-cuda+12.8.tar.gz"
+[[whisper_cpp]]
+arch = "x86_64"
+cuda = "13.0"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "2935866c025309b456f29d0ebd5dd0ae0a5d10d0"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[whisper_cpp.download]]
+    sha256 = "3f7756777937fa83e6dccbbc7297f0fc256988c9a76aa87a14af1837eedcaedd"
+    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.x86_64-linux-gnu-cxx11-cuda+13.0.tar.gz"
+[[whisper_cpp]]
+arch = "aarch64"
+cuda = "13.0"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e663267365f3023e56ceab3f98ecea1cbfdd15ba"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[whisper_cpp.download]]
+    sha256 = "0a6f4cab884bae50f10de154284850511b516266599a7c7af7c8cbb219dcb231"
+    url = "https://github.com/JuliaBinaryWrappers/whisper_cpp_jll.jl/releases/download/whisper_cpp-v1.9.3+0/whisper_cpp.v1.9.3.aarch64-linux-gnu-cxx11-cuda+13.0.tar.gz"
